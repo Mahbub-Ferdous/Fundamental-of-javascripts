@@ -61,9 +61,7 @@ var num1 = [10, 20, 30, 40, 50];
 //// NB: LIFO = we use last add item with push() and and first out last item with pop()
 //// NB: FIFO = we use first elements add with shift() and we use first elements remove with unshift()
 
-
-
 var x = 10;
 var y = 20;
-var z = x + y ;
-console.log('Ans is: ' + x);
+var z = x + y;
+console.log("Ans is: " + x);
