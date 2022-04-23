@@ -74,4 +74,4 @@ console.log(book); /// the edition property of book objects will be 7th edition
 /////////////////////////// all this object.propertyName method we can also use == objectName['propertyName'] = propertyValue;
 
 
-////////////////////////// we can also declared a variable and put the propertyName on it than we can acces everything on tha system befor
+////////////////////////// we can also declared a variable and put the propertyName on it than we can access everything on tha system befor
