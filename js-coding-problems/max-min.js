@@ -8,8 +8,8 @@ console.log(Math.max(x, y, z, m)); ////// ans is 670 that is maximum
 console.log(Math.min(x, y, z, m)); //// ans is 350 that is minimum number
 
 const xArray = [20, 50, 36, 2, 5, 6, 7, 80, 100, 300];
-console.log(Math.max.apply(Math, xArray));
-console.log(Math.min.apply(Math, xArray));
+console.log(Math.max.apply(Math, xArray));           /// ans is 300
+console.log(Math.min.apply(Math, xArray));           ///  ans is 2
 
 //// functional ways :
 
@@ -26,8 +26,8 @@ let a = 10;
 let b = 5;
 let c = 34;
 let d = 40;
-console.log(findMax(a, b, c, d));
-console.log(findMin(a, b, c, d));
+console.log(findMax(a, b, c, d));               /// ans is 40 
+console.log(findMin(a, b, c, d));               /// ans is 5
 
 ///// function with conditions:
 
