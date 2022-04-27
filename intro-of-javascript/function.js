@@ -149,3 +149,21 @@ function mathKhichuri(num1, num2, num3, num4, num5) {
 
 var mathKhichuri = mathKhichuri(10, 20, 30, 40, 50);
 console.log("return:" + mathKhichuri); // ans is -25 cause operator precedence
+
+
+
+
+//// we must aware that when we pass argumnets in a functionn for return than sometimes we gonna do unexpected function input arguments error like mainly we declared a fuction ==> 
+function a (x,y){
+  let total = x + y;
+  return total
+}
+
+// this is unexpected error for pass wrong argumnets
+let total = a(12 + 15);                        
+console.log(total);             /// it will give you NaN error so what can we do, normal logic we decclared a function with two parameter (x,y) and our all business logic is under the funtion. so when we call function and pass argumnet that will be also like declare parameter system
+
+
+/// tjis is the propper way to pass arguments 
+let rightTotal = a(12,15);
+console.log(rightTotal); 

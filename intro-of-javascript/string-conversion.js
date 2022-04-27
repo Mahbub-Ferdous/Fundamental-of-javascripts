@@ -32,9 +32,9 @@ var isThere = true;
 var isRaining;
 var foo = null;
 
-console.log(typeof(onioPrice));
-console.log(typeof(onioPriceNumber));
-console.log(typeof(bananaPriceFloat));
-console.log(typeof(isThere));
+console.log(typeof onioPrice);
+console.log(typeof onioPriceNumber);
+console.log(typeof bananaPriceFloat);
+console.log(typeof isThere);
 console.log(typeof isRaining);
 console.log(typeof foo);
