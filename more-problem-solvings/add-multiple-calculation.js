@@ -17,3 +17,18 @@ function woodCounter(chairQuantity, tableQuantity, bedQuantity){
 }
 let total = woodCounter(6,3,3);
 console.log(total);                              // ans is 198 cft wood you need to make 6 chaires,3 tables and 3 beds
+
+
+
+//// sum of an arrays elements 
+
+let sum = 0;
+function sumArray(array){
+    for(i = 0; i < array.length; i ++){
+        sum += array[i];
+    }
+    return sum;
+}
+let array = [1,5,10,15,20,25,30];
+let summation = sumArray(array);
+console.log(summation);                                      //// ans is 106
