@@ -58,3 +58,13 @@
 
 
 */
+
+//// what is the main difference between === and ==
+
+/* 
+=== is not automatic type convension
+== is auto matic type convention 
+
+(1 == '1')           this is true cause auto type convention and seems like both are integer.
+(1 === 1)           this is not true cause it is not auto type convention so once a integer cant not same as a string
+*/

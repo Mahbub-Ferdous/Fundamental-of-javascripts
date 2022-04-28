@@ -1,6 +1,7 @@
 //// if we need to know that our variable value is which data types than we call  typeof() function to know the data types of our value:
 var onioPrice = "50";
 var bananaPrice = "42.33";
+let password = 12345678910;
 var onioPriceNumber = parseInt(onioPrice);
 var bananaPriceFloat = parseFloat(bananaPrice);
 var isThere = true;
@@ -32,3 +33,5 @@ var total = number + number2;
 console.log(total.toFixed(1));
 var total = total.toFixed(1);
 console.log(parseFloat(total)); //// now the float number is properly float number
+
+console.log(password.toString()); /// this gonna be from numaric to a string method = varName.toString()
