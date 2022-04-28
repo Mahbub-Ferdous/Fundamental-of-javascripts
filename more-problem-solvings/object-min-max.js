@@ -27,15 +27,16 @@ const phones = [
   { name: "Oneplus 9r", price: 45000, color: "black", camera: 32, storage: 64 },
 ];
 
- /// cheapest phone find
- 
+/// cheapest phone find
+
 let cheapestPhone = phones[0]; /// we declared that 0 index is the cheapest phone
 for (const phone of phones) {
-  if (phone.price < cheapestPhone.price) {   // why we took phone.price cause we know to select any object and his properties like object.propertyName
+  if (phone.price < cheapestPhone.price) {
+    // why we took phone.price cause we know to select any object and his properties like object.propertyName
     cheapestPhone = phone;
   }
 }
-console.log(cheapestPhone);                /// cheapest phone is nokia xl 
+console.log(cheapestPhone); /// cheapest phone is nokia xl
 
 /// expensive phone finding
 
@@ -46,6 +47,30 @@ for (const phone of phones) {
   }
 }
 
-console.log(expensivePhone); //// expensive phone is oneplus 9r 
+console.log(expensivePhone); //// expensive phone is oneplus 9r
 
+//// string arrays max :
 
+const friends = [
+  "sohan",
+  "robin",
+  "moon",
+  "shorif",
+  "taohidkhan",
+  "rashed",
+  "tajul",
+  "ratan",
+];
+
+function bestFriend(friends) {
+  let besty = friends[0];
+  for (i = 0; i < friends.length; i++) {
+    let element = friends[i];
+    if (element > besty) {
+      besty = element;
+    }
+  }
+  return besty;
+}
+
+console.log(bestFriend(friends));
