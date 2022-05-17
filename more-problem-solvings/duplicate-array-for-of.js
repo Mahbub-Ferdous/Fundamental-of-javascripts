@@ -72,7 +72,7 @@ const numbers1 = [1, 0, 3, -5, -8, 10, 15, 20, 2, -19, -99];
 let positiveNumber = [];
 for (const number of numbers1) {
   if (number >= 0) {
-    positiveNumber.push(number1);
+    positiveNumber.push(numbers1);
   } else {
     break;
   }
@@ -86,7 +86,7 @@ let positiveNumber1 = [];
 let negetiveNumber = [];
 for (const number of numbers2) {
   if (number >= 0) {
-    positiveNumber.push(number);
+    positiveNumber1.push(number);
   } else {
     negetiveNumber.push(number);
   }

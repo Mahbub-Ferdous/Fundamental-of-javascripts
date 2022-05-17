@@ -24,7 +24,7 @@ console.log(total);                              // ans is 198 cft wood you need
 
 let sum = 0;
 function sumArray(array){
-    for(i = 0; i < array.length; i ++){
+    for(i = 0; i< array.length; i ++){
         sum += array[i];
     }
     return sum;
