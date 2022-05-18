@@ -38,7 +38,7 @@ text5[0] = "A";
 console.log(text5); // does not work
 
 // split(): A string can be converted to an array with the split() method:
-// split with (" "):
+// split with (" "): 
 const anthem = "Amar Sonar Bangla Ami Tomay Valobashi";
 const arrSplit = anthem.split(" "); // we use whit-space for split
 console.log(arrSplit); // ans is [ 'Amar', 'Sonar', 'Bangla', 'Ami', 'Tomay', 'Valobashi' ]
@@ -68,5 +68,7 @@ const substring2 = anthem.substring(-9);
 console.log(substring);   // ans is 
 console.log(substring1);   // ans is 
 console.log(substring2);   // ans is 
+
+
 
 

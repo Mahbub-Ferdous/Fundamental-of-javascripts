@@ -6,13 +6,13 @@ const products = [
     {name: 'macbook laptop', price: 20000},
     {name: 'apple smart watch', price: 20000},
     {name: 'oneplus watch', price: 20000},
-    {name: 'dell gaming laptop', price: 20000},
+    {name: 'dell gaming Laptop', price: 20000},
     {name: 'wristfit watch', price: 20000},
 ];
 
 function searchProducts(products, searchText){
     for(const product of products){
-        if(product.name.includes(searchText)){         /// why we use includes function cause we want to searcvh some specific text with property name so we includes than and pass the parameter in searchText parameter with something
+        if(product.name.includes(searchText.toLowerCase())){         /// why we use includes function cause we want to searcvh some specific text with property name so we includes than and pass the parameter in searchText parameter with something
             console.log(product.name);
         }
     }

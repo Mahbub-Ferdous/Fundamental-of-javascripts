@@ -60,26 +60,3 @@ var num1 = [10, 20, 30, 40, 50];
 
 //// NB: LIFO = we use last add item with push() and and first out last item with pop()
 //// NB: FIFO = we use first elements add with shift() and we use first elements remove with unshift()
-
-var x = 10;
-var y = 20;
-var z = x + y;
-console.log("Ans is: " + x);
-
-// reverse() method:
-const fruits1 = ["mango", "banana", "guava"];
-const reverse = fruits1.reverse();
-console.log(reverse);
-
-// join():
-
-const name1 = ["abid", "badhon", "cynthia", "dalim"];
-const name2 = name1.join();
-const name3 = name1.join("");
-const name4 = name1.join(",");
-const name5 = name1.join(", ");
-console.log(name1);
-console.log(name2);
-console.log(name3);
-console.log(name4);
-console.log(name5);

@@ -38,3 +38,9 @@ console.log(typeof bananaPriceFloat);
 console.log(typeof isThere);
 console.log(typeof isRaining);
 console.log(typeof foo);
+
+//
+var x = 10;
+var y = 20;
+var z = x + y;
+console.log("Ans is: " + x);
